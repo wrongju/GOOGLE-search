@@ -1,0 +1,195 @@
+* {
+   padding: 0;
+}
+html {
+   height: 100%;
+}
+body {
+   background-color: #202124;
+   margin: 0px;
+}
+
+.navigation {
+   display: flex;
+   padding: 0px 20px;
+   margin-top: 10px;
+   gap: 15px;
+   justify-content: end;
+   align-items: center;
+
+}
+
+.listA {
+   text-decoration: none;
+   color: white;
+}
+
+.listA:hover {
+   text-decoration:underline;
+}
+
+.listNav {
+   list-style: none;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+
+.listBackground {
+   display: flex;
+   background-color: rgba(240, 248, 255, 0);
+   width: 45px;
+   height: 45px;
+   border-radius: 50%;
+}
+
+.divPoint {
+   position: absolute;
+   border: #20212400;
+   background-color: rgba(240, 248, 255, 0);
+   border-radius: 50%;
+   height: 45px;
+   width: 45px;
+}
+
+.divPoint:hover {
+   background-color: rgba(240, 248, 255, 0.076);
+   border-radius: 50%;
+   height: 45px;
+   width: 45px;
+   cursor: pointer;
+}
+
+.navBarPoint {
+   display: flex;
+   color: white;
+   background-color: rgba(255, 255, 255, 0.185);
+   padding: 5px 10px;
+   border-radius: 5px;
+   white-space: nowrap;
+}
+
+
+.navBarUl {
+   display: none;
+   justify-content: flex-end;
+   list-style-type: none;
+   font-size: 14px;
+   /* transition: 1s ease; */
+   margin-top: 80px;
+   margin-right: 0px;
+}
+
+.listBackground:hover .navBarUl {
+   display: flex;
+}
+
+.idColor {
+   color: white;
+}
+
+.navBarUl2 {
+   display: none;
+   list-style-type: none;
+   font-size: 14px;
+   position: absolute;
+   margin-top: 120px;
+   color: rgba(255, 255, 255, 0.67);
+   margin-right: 142px;
+   padding: 6px 10px;
+   border-radius: 5px;
+   background-color: rgba(255, 255, 255, 0.185);
+}
+
+.listBackground2:hover .navBarUl2 {
+   display: flex;
+}
+
+.mainWindow {
+   display:grid;
+   justify-content: center;
+}
+
+main {
+   padding: 200px 0px;
+}
+
+.imgGoogle {
+   display: flex;
+   justify-content: center;
+   
+}
+
+.searchLoad {
+   outline: none;
+   font-size: 17px;
+   color: rgb(255, 255, 255);
+   border-radius: 100px;
+   width: 600px;
+   background-color: rgba(255, 255, 255, 0);
+   border: none;
+}
+
+.searchBar {
+   border: 1px solid rgba(255, 255, 255, 0.266);
+   border-radius: 99px;
+   display: flex;
+   padding: 7px;
+   width: 580px;
+   margin-top: 20px;
+   height: 32px;
+}
+
+.searchBar:hover {
+   background-color: rgba(255, 255, 255, 0.066);
+   border: 1px solid rgba(255, 255, 255, 0);
+   box-shadow: -0px 4px 12px 2px rgba(0, 0, 0, 0.158);
+}
+
+.imgSearch {
+   fill: rgba(255, 255, 255, 0.629);
+   display: flex;
+   justify-content: center;
+   align-self: center;
+   padding: 0px 7px;
+}
+
+.keyboard {
+   display: flex;
+   justify-content: center;
+   align-self: center;
+   fill: rgba(255, 255, 255, 0.712);
+   padding: 10px;
+}
+
+.keyboard:hover {
+   cursor: pointer;
+}
+
+.downUlBar {
+   display: flex;
+   align-content: center;
+}
+
+.downAA {
+   display: flex;
+   justify-content: center;
+   gap: 15px;
+   margin-top: 30px;
+}
+
+.inpSe {
+   padding: 10px 18px;
+   font-size: 15px;
+   background-color: rgba(255, 255, 255, 0.079);
+   border-radius: 5px;
+   border: 1px solid rgba(255, 255, 255, 0);
+   color: white;
+}
+
+.inpSe:hover {
+   border: 1px solid rgba(255, 255, 255, 0.218);
+   cursor: pointer;
+}
+
